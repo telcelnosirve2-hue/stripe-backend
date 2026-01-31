@@ -2,7 +2,7 @@ const express = require("express");
 const Stripe = require("stripe");
 const cors = require("cors");
 
-const stripe = Stripe("PEGA_TU_SECRET_KEY_AQUI");
+const stripe = Stripe("pk_live_51SvBJ0KxYHfb5tBlF3Ks7xn5ysrHFmAwaK2A89z6nnJwLIrV0yox5bVJipo50ty3ECB4Wmt41rQYR8NBOjv4sIm400meRQA6hD");
 
 const app = express();
 app.use(cors());
